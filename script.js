@@ -236,7 +236,7 @@ async function searchWikipedia(command) {
 }
 
 async function fetchWeather(city) {
-    const apiKey = "f38e1204490e780ed4b553df5c99a240";  // Replace with your OpenWeatherMap API key
+    const apiKey = "YOUR_API_KEY_HERE";  // Replace with your OpenWeatherMap API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`;
     
     try {
@@ -279,7 +279,7 @@ async function tellJoke() {
 }
 
 async function tellNews() {
-    const apiKey = "5bbe445ab118453c891907dbae587d71"; 
+    const apiKey = "YOUR_API_KEY_HERE"; 
     const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
     
     try {
